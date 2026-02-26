@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module Example</title>
+</head>
+<body>
+    <h1>JavaScript Modules Example</h1>
+    <p>Check the console in your browser's developer tools to see the output from</p>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>

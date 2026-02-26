@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+<title>Introduction to JavaScript</title>
+</head>
+<body>
+
+    <h1>Practical Destructuring and the spread Operator</h1>
+<script>
+    const ghilmanProfile = {
+        name : " Ghilman Khan",
+        age : 28,
+        city : "Lahore",
+    };
+    const { name, city} = ghilmanProfile;
+    console.log(name);
+    console.log(city);
+
+    const ghilmanFoods = ["Biryani", "Samosa"];
+
+    const allFoods = [...ghilmanFoods, "Karahi"];
+
+    console.log(ghilmanFoods);
+    console.log(allFoods);
+
+   
+const student = {
+  id: 101,
+  name: "Ghilman",
+  grades: [85, 90, 78]
+};
+
+
+const { id, Name } = student;
+
+console.log(id); 
+console.log(Name); 
+
+const tasks = ["Math homework", "Science project"];
+
+const updatedTasks = [...tasks, "English essay", "History reading"];
+
+console.log(updatedTasks);
+
+</script>
+</body>
+</html>

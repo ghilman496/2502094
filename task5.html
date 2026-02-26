@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+<title>Introduction to JavaScript</title>
+</head>
+<body>
+
+    <h1>filtering data with .filter()</h1>
+<script>   
+const users = [
+  { name: "Ahmad", age: 25 },
+  { name: "Ghilman", age: 32 },
+  { name: "Aleeza", age: 40 },
+  { name: "Fatima", age: 28 }
+];
+
+const olderUsers = users.filter(user => user.age > 30);
+
+console.log(olderUsers);
+
+const fruits = ["apple", "banana", "kiwi", "grape"];
+
+const longFruits = fruits.filter(fruit => fruit.length > 4);
+
+console.log(longFruits);
+
+</script>
+</body>
+</html>
